@@ -1,0 +1,107 @@
+:root {
+  --dark-green: #004B49;
+  --light-green: #80D2A9;
+  --yellow: #FDC435;
+  --text-dark-gray: #25282B;
+  --text-medium-gray: #828282;
+  --white: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+body {
+  background-color: var(--dark-green);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+.yellow-bottom-line:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: var(--yellow);
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-justify-between {
+  justify-content: space-between;
+}
+
+.f-justify-center {
+  justify-content: center;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.v-margins-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.h-margins-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.h-margins-25 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.block-width-s {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-3 {
+  width: calc(100% / 3);
+}

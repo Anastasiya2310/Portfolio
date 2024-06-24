@@ -1,0 +1,61 @@
+:root {
+  --extra-dark-green: #0D2F2E;
+  --light-green: #80D2A9;
+  --yellow: #FDC435;
+  --text-dark-gray: #25282B;
+  --text-medium-gray: #828282;
+  --white: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.card {
+  list-style: none;
+  border: 1px solid var(--light-green);
+  box-shadow: 0 0 15px 2px var(--extra-dark-green);
+  border-radius: 25px;
+  position: relative;
+  width: calc(100% / 3);
+  overflow: hidden;
+  transition: all 0.4s ease-in;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px 2px var(--light-green);
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.project-image {
+  max-height: 450px;
+  border-radius: 25px 25px 0 0;
+  mix-blend-mode: luminosity;
+  filter: contrast(1) brightness(90%);
+  transition: all 0.8s ease-in-out;
+}
+
+.card:hover .project-image {
+  filter: none;
+  mix-blend-mode: normal;
+  transition: all 0.5s ease-in;
+}
+
+.card-description {
+  opacity: 0.4;
+  transition: all 0.4s ease-in;
+}
+
+.card:hover .card-description {
+  opacity: 1;
+  transition: all 0.4s ease-in;
+}
+
+.list-style-none {
+  list-style-type: none;
+}

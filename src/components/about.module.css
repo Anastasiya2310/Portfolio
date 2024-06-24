@@ -1,0 +1,127 @@
+.heading-1 {
+  font-size: 3rem;/* 48px */
+  line-height: 1;
+}
+
+.heading-2 {
+  font-size: 1.75rem;/* 28px */
+}
+
+.heading-bold {
+  font-family: "Roboto-Condensed-bold", sans-serif;
+}
+
+.heading-regular {
+  font-family: "Roboto-Condensed-regular", sans-serif;
+}
+
+.text-dark-gray {
+  color: var(--text-dark-gray);
+}
+/* 
+.text-white {
+  color: var(--white);
+} */
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font-18 {
+  font-size: 1.125rem;/* 18px */
+}
+
+.container-bio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 6rem 0 10rem;
+  background: url("./../images/bio-bg.svg") right top no-repeat;
+  background-size: 45%;
+}
+
+.bio {
+  width: 50%;
+}
+
+.bio-decoration {
+  width: 300px;
+  height: 300px;
+  margin-right: 8rem;
+  margin-bottom: -2rem;
+  border: 6px solid var(--dark-green);
+}
+
+.bio-decoration p {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.position {
+  font-family: "Saira-Condensed-bold", sans-serif;
+}
+
+.description {
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+}
+
+.button-yellow {
+  outline: none;
+  border: 0;
+  background-color: var(--yellow);
+  color: var(--text-dark-gray);
+  border-radius: 0.5rem;
+  padding: .7rem 1rem;
+}
+
+.button-shine-anim {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  box-shadow: none;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button-shine-anim:hover {
+  box-shadow: 0 0 25px var(--light-green);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button-shine-anim span {
+  z-index: 30;
+}
+
+.button-shine-anim:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 130px;
+  position: absolute;
+  left: -75px;
+  top: -50px;
+  transform: rotate(35deg);
+  background-color: var(--white);
+  opacity: .3;
+  box-shadow: none;
+  transition: all .7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button-shine-anim:hover:after {
+  left: 120%;
+  box-shadow: 0 0 10px 10px var(--light-green);
+  transition: all .7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.about-education,
+.about-languages {
+  list-style: none;
+}
+
+.about-languages {
+  margin: 15px;
+}

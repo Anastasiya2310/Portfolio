@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Roboto-Condensed-bold';
+  src: url('../fonts/Roboto/Roboto_Condensed/RobotoCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Condensed-regular';
+  src: url('../fonts/Roboto/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Saira-Condensed-bold';
+  src: url('../fonts/Saira_Condensed/SairaCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-regular';
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+:root {
+  --yellow: #FDC435;
+  --text-dark-gray: #25282B;
+  --text-medium-gray: #828282;
+  --white: #FFFFFF;
+}
+
+.heading-bold {
+  font-family: "Roboto-Condensed-bold", sans-serif;
+}
+
+.heading-regular {
+  font-family: "Roboto-Condensed-regular", sans-serif;
+}
+
+.body-regular {
+  font-family: "OpenSans-regular", sans-serif;
+}
+
+.heading-1 {
+  font-size: 3rem;/* 48px */
+  line-height: 1;
+}
+
+.heading-2 {
+  font-size: 1.75rem;/* 28px !!!!!!!!!!!!!*/
+}
+
+.font-80 {
+  font-size: 5rem;/* 80px */
+}
+
+.font-28 {
+  font-size: 1.75rem;/* 28px !!!!!!!!!!!!!*/
+}
+
+.font-24 {
+  font-size: 1.5rem;/* 24px */
+}
+
+.font-20 {
+  font-size: 1.25rem;/* 20px */
+}
+
+.font-18 {
+  font-size: 1.125rem;/* 18px */
+}
+
+.font-16 {
+  font-size: 1rem;/* 16px */
+}
+
+.font-13 {
+  font-size: 0.8rem;/* 13px */
+}
+
+.text-dark-gray {
+  color: var(--text-dark-gray);
+}
+
+.text-medium-gray {
+  color: var(--text-medium-gray);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-style-none {
+  list-style-type: none;
+}

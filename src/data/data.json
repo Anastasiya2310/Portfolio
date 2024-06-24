@@ -1,0 +1,103 @@
+{
+  "name": "Anastasiya Kharitonova",
+  "position": "Frontend developer",
+  "description": "I am a skilful front-end developer with expertise in designing, developing, and maintaining web UI. Able to effectively self-manage during independent projects, team player, highly flexible and adaptive. Proficient in an assortment of technologies, including HTML, SASS, Bootstrap 5, Git, JavaScript (React, React Hooks), Webpack, REST API, Drupal 10, email developing, Flexbox, Grid, Linters, Figma. Receptive to new ideas and different opinions.",
+ 
+  "contact": {
+    "email": "kovalskaya.anastasiya@gmail.com",
+    "github": "https://github.com/Anastasiya2310",
+    "linkedin": "https://www.linkedin.com/in/anastasiya-kharitonova/"
+  },
+
+  "education": [
+    {
+      "years": "2023",
+      "school": "Microsoft",
+      "title": "AZ-204 Certificate"
+    },
+    {
+      "years": "2022",
+      "school": "UI Dev",
+      "title": "React course with Certificate of completion"
+    },
+    {
+      "years": "2009-2014",
+      "school": "The Balarusian State Technological University, Minsk",
+      "title": "Bachelor Degree (Editing and Publishing technology)"
+    }
+  ],
+  "languages": [
+    {
+      "title": "Russian",
+      "level": "Native"
+    },
+    {
+      "title": "English",
+      "level": "B2"
+    },
+    {
+      "title": "Polish",
+      "level": "A2"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gallows quiz game",
+      "description": "Classic word game in which you must find the correct answer by guessing letters one at a time.",
+      "image": "hangman.png",
+      "tags": [
+        "React", "React Hooks", "SCSS", "Neon", "Github Pages", "Jest"
+      ]
+    },
+    {
+      "name": "Personal portfolio",
+      "description": "The way to showcase your best creative work, favorite projects, and noteworthy accomplishments.",
+      "image": "portfolio.png",
+      "tags": [
+        "Gatsby", "React", "Netlify", "CSS", "Figma" 
+      ]
+    },
+    {
+      "name": "Sartle",
+      "description": "Art portal. Styling development from scratch, tight collaboration with client",
+      "image": "sartle.png",
+      "tags": [
+        "Drupal 7", "SCSS", "JS"
+      ]
+    }
+  ],
+  "employment": [
+    {
+      "time": "October 2021 - present",
+      "position": "Frontend developer",
+      "company": "WarecorpPol, Warsaw",
+      "description": [
+        "Created and implemented mailing for various browsers and email clients;",
+        "Developed web app from scratch;",
+        "Maintaining existing projects: updating outdated tools and libraries;",
+        "Integrating chatGPT, DALLE-2 in project;",
+        "Communication with client during the development process to achieve the highest customer satisfaction and deliver the best experience possible to our customers;"
+      ]
+    },
+    {
+      "time": "May 2016 - October 2021",
+      "position": "Frontend developer",
+      "company": "Warecorp, Minsk",
+      "description": [
+        "Effectively multi-tasked and worked well with internal and external teams;",
+        "Helped to achieve a consistent look and visual theme across the website by promoting images and layout;",
+        "I do my utmost to provide the final result according to the client’s expectations."
+      ]
+    },
+    {
+      "time": "March 2014 - April 2016",
+      "position": "Frontend developer",
+      "company": "EKA-Soft, Minsk",
+      "description": [
+        "Designed and implementer web pages into CMS Drupal;",
+        "Improved readability, UX and page speed;",
+        "Suggested the most effective ways to attract customers."
+      ]
+    }
+  ]
+}

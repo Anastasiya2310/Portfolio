@@ -1,0 +1,23 @@
+.time {
+  min-width: 200px;
+}
+
+.position {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.list-bullets-inside {
+  list-style-position: inside;
+}
+
+.list-style-none {
+  list-style-type: none;
+}

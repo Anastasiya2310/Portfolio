@@ -1,14 +1,26 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
+//import { StaticImage } from 'gatsby-plugin-image'
+import * as LayoutStyle from './../styles/layout.module.css'
+import * as TypographyStyle from './../styles/typography.module.css'
+
+import Header from '../components/header'
+import About from '../components/about'
+import Experience from '../components/experience'
+import Projects from '../components/projects'
+import Footer from '../components/footer'
 import Seo from './../components/seo'
 
 const IndexPage = () => {
   return(
-    <Layout pageTitle="Home Page">
-      <p>Portfolio site for personal usage</p>
-      <StaticImage alt="anime dawn sky" src="../images/grid_0_640_N.webp"/>
-    </Layout>
+    <div>
+      <Header />
+      <About />
+      <main className={`${LayoutStyle.container} ${TypographyStyle.textWhite}`}>
+        <Projects blockTitle="Projects"/>
+        <Experience blockTitle="Experience"/>
+      </main>
+      <Footer />
+    </div>
   )
 }
 
