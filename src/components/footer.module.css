@@ -1,17 +1,35 @@
 .footer {
-  padding: 30px;
-}
-.icon-footer {
-  width: 48px;
-  height: 48px;
+  margin-bottom: 4rem;
+
+  li {
+    padding: 0 0.4rem;
+    margin-bottom: 0;
+  }
+  .contact-list {
+    margin-bottom: 0;
+
+    a {
+      opacity: 0.5;
+      transition: all 0.5s ease;
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
 
-.email {
-  padding: 10px;
+.text-footer {
+  color: var(--light-green);
+  font-size: 0.7rem;
 }
-.github {
-  padding: 12px;
-}
-.linkedin {
-  padding: 14px;
+
+.links-footer {
+  color: var(--yellow);
+  border-bottom: 1px solid var(--dark-green);
+  transition: all 0.5s ease;
+
+  &:hover {
+    border-bottom: 1px solid var(--yellow);
+  }
 }
