@@ -44,14 +44,14 @@ const Projects = ({ blockTitle }) => {
   return (
     <div className={`${LayoutStyle.vMargins30} ${LayoutStyle.marginBottom100}`} id="projects">
       <h2 className={`${TypographyStyle.heading2} ${TypographyStyle.textWhite} ${TypographyStyle.textCenter} ${LayoutStyle.yellowBottomLine} ${LayoutStyle.marginBottom50}`}>{blockTitle}</h2>
-      <ul className={`${LayoutStyle.flex} ${LayoutStyle.fRow} ${LayoutStyle.fJustifyBetween} ${LayoutStyle.gap30} ${LayoutStyle.padding0}`}>
+      <ul className={`${LayoutStyle.flex} ${LayoutStyle.fRow} ${LayoutStyle.fMdCol} ${LayoutStyle.fJustifyBetween} ${LayoutStyle.gap30} ${LayoutStyle.padding0}`}>
         {projectsData.map((item, index) => (
-          <li key={index} className={`${ProjectsStyle.card}`}>
+          <li key={index} className={`${ProjectsStyle.card} ${LayoutStyle.flex} ${LayoutStyle.fColumn} ${LayoutStyle.fMdRow} ${LayoutStyle.column3} ${LayoutStyle.columnMd1}`}>
             {item.image && 
               <GatsbyImage 
                 image={getImageByRelativePath(item.image)} 
                 alt={item.name}
-                className={`${ProjectsStyle.fullWidthImage} ${ProjectsStyle.projectImage}`}
+                className={`${ProjectsStyle.fullWidthImage} ${ProjectsStyle.thirdWidthImage} ${ProjectsStyle.projectImage}`}
               />
             }
             <div className={`${LayoutStyle.vMargins30} ${ProjectsStyle.cardDescription}`}>

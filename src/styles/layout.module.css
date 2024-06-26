@@ -8,9 +8,40 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%; /* every 1rem = 16px */
+}
+
 .container {
   margin: 0 auto;
-  width: 1400px;
+  width: 1200px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  html {
+    font-size: 90%;
+  }
+  .container {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 600px;
+  }
 }
 
 body {
@@ -47,6 +78,12 @@ a {
 
 .f-row {
   flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .f-md-col {
+    flex-direction: column;
+  }
 }
 
 .f-justify-between {
@@ -108,4 +145,14 @@ a {
 
 .column-3 {
   width: calc(100% / 3);
+}
+
+@media screen and (max-width: 1023px) {
+  .column-md-1 {
+    width: 100%;
+  }
+
+  .f-md-row {
+    flex-direction: row;
+  }
 }
