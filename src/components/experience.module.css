@@ -2,6 +2,14 @@
   min-width: 200px;
 }
 
+@media screen and (max-width: 767px) {
+  .time {
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--yellow);
+  }
+}
+
 .position {
   display: inline-block;
 }

@@ -51,7 +51,7 @@ const Projects = ({ blockTitle }) => {
               <GatsbyImage 
                 image={getImageByRelativePath(item.image)} 
                 alt={item.name}
-                className={`${ProjectsStyle.fullWidthImage} ${ProjectsStyle.thirdWidthImage} ${ProjectsStyle.projectImage}`}
+                className={`${LayoutStyle.imageSmNone} ${ProjectsStyle.fullWidthImage} ${ProjectsStyle.smallWidthImage} ${ProjectsStyle.projectImage}`}
               />
             }
             <div className={`${LayoutStyle.vMargins30} ${ProjectsStyle.cardDescription}`}>

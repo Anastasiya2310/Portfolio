@@ -40,7 +40,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .container {
-    width: 600px;
+    width: 90vw;
   }
 }
 
@@ -154,5 +154,14 @@ a {
 
   .f-md-row {
     flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .displayBlock {
+    display: block;
+  }
+  .image-sm-none {
+    display: none;
   }
 }
