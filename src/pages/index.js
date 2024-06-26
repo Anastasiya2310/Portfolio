@@ -18,6 +18,7 @@ const IndexPage = () => {
         <Projects blockTitle="Projects"/>
         <Experience blockTitle="Experience"/>
       </main>
+      <div className="sharethis-inline-share-buttons"></div>
       <Footer />
     </div>
   )
