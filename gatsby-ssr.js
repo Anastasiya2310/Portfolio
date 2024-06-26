@@ -1,4 +1,6 @@
-exports.onRenderBody = ({ setHeadComponents }) => {
+import React from "react";
+
+export const onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
     <script 
       type='text/javascript' 
