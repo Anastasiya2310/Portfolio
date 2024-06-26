@@ -1,5 +1,4 @@
 import * as React from 'react'
-//import { StaticImage } from 'gatsby-plugin-image'
 import * as LayoutStyle from './../styles/layout.module.css'
 import * as TypographyStyle from './../styles/typography.module.css'
 

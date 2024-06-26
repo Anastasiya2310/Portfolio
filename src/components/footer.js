@@ -34,12 +34,12 @@ const Footer = () => {
             <EmailIcon width={38} height={38}/>
           </a>
         </li>
-        <li key={contact.github} className={`${FooterStyle.iconFooter} ${LayoutStyle.flex} ${LayoutStyle.fJustifyCenter} ${LayoutStyle.fAlignItemsCenter}`}>
+        <li key={contact.github} className={`${LayoutStyle.flex} ${LayoutStyle.fJustifyCenter} ${LayoutStyle.fAlignItemsCenter}`}>
           <a href={contact.github} target="_blank" rel="noreferrer noopener">
             <GithubIcon width={30} height={30}/>
           </a>
         </li>
-        <li key={contact.linkedin} className={`${FooterStyle.iconFooter} ${LayoutStyle.flex} ${LayoutStyle.fJustifyCenter} ${LayoutStyle.fAlignItemsCenter}`}>
+        <li key={contact.linkedin} className={`${LayoutStyle.flex} ${LayoutStyle.fJustifyCenter} ${LayoutStyle.fAlignItemsCenter}`}>
           <a href={contact.linkedin} target="_blank" rel="noreferrer noopener">
             <LinkedinIcon width={38} height={38}/>
           </a>

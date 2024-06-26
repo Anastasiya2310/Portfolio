@@ -50,6 +50,12 @@
   font-size: 5rem;/* 80px */
 }
 
+@media screen and (max-width: 1199px) {
+  .font-80 {
+    font-size: 5.5rem;
+  }
+}
+
 .font-28 {
   font-size: 1.75rem;/* 28px !!!!!!!!!!!!!*/
 }

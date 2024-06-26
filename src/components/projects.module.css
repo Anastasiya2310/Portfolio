@@ -14,7 +14,6 @@
   box-shadow: 0 0 15px 2px var(--extra-dark-green);
   border-radius: 25px;
   position: relative;
-  width: calc(100% / 3);
   overflow: hidden;
   transition: all 0.4s ease-in;
 }
@@ -30,6 +29,12 @@
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1023px) {
+  .third-width-image {
+    width: calc(100% / 3);
+  }
 }
 
 .project-image {
