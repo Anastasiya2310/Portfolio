@@ -27,9 +27,9 @@ const Experience = ({ blockTitle }) => {
   return (
     <div className={`${LayoutStyle.vMargins30} ${LayoutStyle.marginBottom100}`} id="experience">
       <h2 className={`${TypographyStyle.heading2} ${TypographyStyle.textWhite} ${TypographyStyle.textCenter} ${LayoutStyle.yellowBottomLine}`}>{blockTitle}</h2>
-      <ul className={`${LayoutStyle.flex} ${LayoutStyle.fColumn} ${LayoutStyle.gap30}`}>
+      <ul className={`${LayoutStyle.displayBlock} ${LayoutStyle.flex} ${LayoutStyle.fColumn} ${LayoutStyle.gap30}`}>
         {experienceData.map((item, index) => (
-          <li key={index} className={`${LayoutStyle.flex} ${LayoutStyle.fRow} ${ExperienceStyle.listStyleNone}`}>
+          <li key={index} className={`${LayoutStyle.displayBlock} ${LayoutStyle.flex} ${LayoutStyle.fRow} ${ExperienceStyle.listStyleNone}`}>
             <div className={`${LayoutStyle.hMargins15} ${TypographyStyle.headingRegular} ${ExperienceStyle.time}`}>
               {item.time}
             </div>
