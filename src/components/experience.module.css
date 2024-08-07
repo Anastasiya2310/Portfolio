@@ -29,3 +29,20 @@ ul li {
 .list-style-none {
   list-style-type: none;
 }
+.experience-item {
+  line-height: 1.4;
+}
+
+.experience-article {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}

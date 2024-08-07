@@ -74,9 +74,10 @@
       "description": [
         "Created and implemented mailing for various browsers and email clients;",
         "Developed web app from scratch;",
-        "Maintaining existing projects: updating outdated tools and libraries;",
-        "Integrating chatGPT, DALLE-2 in project;",
-        "Communication with client during the development process to achieve the highest customer satisfaction and deliver the best experience possible to our customers;"
+        "Maintained existing projects: updating outdated tools and libraries;",
+        "Integrated chatGPT, DALLE-2 API in project;",
+        "Communicated with client during the development process to achieve the highest customer satisfaction and deliver the best experience possible to customers;",
+        "Added custom events to New Relic (NerdGraph API)"
       ]
     },
     {
